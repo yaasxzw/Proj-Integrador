@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #440070;
+    height: 20vh;
+}
+
+.login{
+    width: 1200px;
+    height: 200px;
+    margin-top: 230px;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    background-color: #B19CD9;
+}
+.title{
+   margin-top: 80px;
+}
+
+section{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    margin: 150px;
+}
+
+.box , h2{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.box2 , h2{
+  margin: 10px;
+  font-size: 20px;
+ 
+}
+
+.autor{
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
