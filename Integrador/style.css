@@ -1,51 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: 0;
 }
-
 .caixa{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #440070;
-    height: 20vh;
+    height: 30vh;
 }
-
 .login{
-    width: 1200px;
+    width: 900px;
     height: 200px;
     margin-top: 230px;
+    border-radius: 2px;
     text-align: center;
     font-family: 'inter', sans-serif;
     background-color: #B19CD9;
 }
 .title{
-   margin-top: 80px;
+    margin-top: 80px;
+    color: white;
 }
-
 section{
-    justify-content: center;
     display: flex;
-    padding: 15px;
+    justify-content: center;
     margin: 150px;
+
+    gap: 30px;
+}
+input{
+    margin-top: 10px;
+    background-color: #B19CD9;
+    border: none;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
 }
 
-.box , h2{
-    margin: 10px;
-    font-size: 20px;
-}
-
-.box2 , h2{
-  margin: 10px;
-  font-size: 20px;
- 
-}
-
-.autor{
-    justify-content: center;
-    display: flex;
-    padding: 15px;
-}
